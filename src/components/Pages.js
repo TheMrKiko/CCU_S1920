@@ -1,13 +1,12 @@
 import React from 'react'
 import { Home } from '../pages'
-import { FullPageSections } from '@ap.cx/react-fullpage'
+import ReactFullpage from '@fullpage/react-fullpage';
 
 const Pages = () => (
-	<FullPageSections>
+	<ReactFullpage.Wrapper>
 		<Home />
 		<Home />
-		<Home />
-	</FullPageSections>
+	</ReactFullpage.Wrapper>
 )
 
 export default Pages

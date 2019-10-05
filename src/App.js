@@ -1,15 +1,21 @@
 import React from 'react';
-import { Pages, Navigation, Header } from './components'
-import Fullpage from '@ap.cx/react-fullpage';
+import { Pages, Header } from './components'
+import ReactFullpage from '@fullpage/react-fullpage';
 
 import './App.css';
 
 const App = () => (
-    <Fullpage>
-        <Navigation />
+    <div className="App">
         <Header />
-        <Pages />
-    </Fullpage>
+        <ReactFullpage
+            navigation
+            licenseKey={'bDP5kpT?i1'}
+            sectionsColor={['#ffffff', '#000000']}
+            render={() => (
+                <Pages />
+            )}
+        />
+    </div>
 );
 
 
