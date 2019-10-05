@@ -1,10 +1,10 @@
 import React from 'react'
 import { Page } from '../components';
 
-const Home = () => (
+const Links = () => (
 	<Page>
-		CCU - GROUP 2
+		work here soon.
 	</Page>
 )
 
-export default Home
+export default Links

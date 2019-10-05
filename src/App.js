@@ -10,7 +10,7 @@ const App = () => (
         <ReactFullpage
             navigation
             licenseKey={'bDP5kpT?i1'}
-            sectionsColor={['#ffffff', '#000000']}
+            sectionsColor={['#ff0000', '#00ff00', '#0000ff']}
             render={() => (
                 <Pages />
             )}

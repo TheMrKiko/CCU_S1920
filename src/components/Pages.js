@@ -1,11 +1,12 @@
 import React from 'react'
-import { Home } from '../pages'
+import { Home, Members, Links } from '../pages'
 import ReactFullpage from '@fullpage/react-fullpage';
 
 const Pages = () => (
 	<ReactFullpage.Wrapper>
 		<Home />
-		<Home />
+		<Members />
+		<Links />
 	</ReactFullpage.Wrapper>
 )
 
