@@ -1,12 +1,5 @@
-.App {
+.page {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -17,6 +10,17 @@
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  height: 80px;
+  width: 100%;
+  z-index: 1;
+  background: blue;
+  opacity: 0.5;
+}
+
+.Driver {
+  display: none;
 }
