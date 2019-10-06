@@ -3,7 +3,9 @@ import { Page } from '../components';
 
 const Links = () => (
 	<Page>
-		work here soon.
+		<a href={`${process.env.PUBLIC_URL}/pdf/project_pitch.pdf`}>
+			Project Pitch and stakeholders
+		</a>
 	</Page>
 )
 

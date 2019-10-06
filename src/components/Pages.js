@@ -5,8 +5,8 @@ import ReactFullpage from '@fullpage/react-fullpage';
 const Pages = () => (
 	<ReactFullpage.Wrapper>
 		<Home />
-		<Members />
 		<Links />
+		<Members />
 	</ReactFullpage.Wrapper>
 )
 
