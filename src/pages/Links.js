@@ -6,6 +6,9 @@ const Links = () => (
 		<a href={`${process.env.PUBLIC_URL}/pdf/project_pitch.pdf`}>
 			Project Pitch and stakeholders
 		</a>
+		<a href={`${process.env.PUBLIC_URL}/pdf/user_research.pdf`}>
+			User Researchme
+		</a>
 	</Page>
 )
 
