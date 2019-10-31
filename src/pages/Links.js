@@ -9,6 +9,9 @@ const Links = () => (
 		<a href={`${process.env.PUBLIC_URL}/pdf/user_research.pdf`}>
 			User Research
 		</a>
+		<a href={`${process.env.PUBLIC_URL}/pdf/prioritize_development.pdf`}>
+			Prioritize Development
+		</a>
 	</Page>
 )
 
