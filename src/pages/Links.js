@@ -19,6 +19,11 @@ const Links = () => (
 					Prioritize Development
 				</a>
 			</li>
+			<li>
+				<a href={`${process.env.PUBLIC_URL}/pdf/low_fidelity_prototype.pdf`}>
+					Low-Fidelity Prototype
+				</a>
+			</li>
 		</ul>
 	</Page>
 )
