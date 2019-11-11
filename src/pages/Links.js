@@ -24,6 +24,11 @@ const Links = () => (
 					Low-Fidelity Prototype
 				</a>
 			</li>
+			<li>
+				<a href={`${process.env.PUBLIC_URL}/pdf/formative-user-study​.pdf`}>
+					Formative User Study
+				</a>
+			</li>
 		</ul>
 	</Page>
 )
