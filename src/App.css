@@ -6,15 +6,17 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
-.header {
+#header {
   display: flex;
   position: fixed;
   top: 0;
   height: 80px;
   width: 100%;
   z-index: 1;
+}
 
 #logo {
   flex: 0;

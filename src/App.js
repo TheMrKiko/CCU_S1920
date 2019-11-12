@@ -8,8 +8,9 @@ const App = () => (
     <div className="App">
         <Header />
         <ReactFullpage
-            navigation
             licenseKey={'bDP5kpT?i1'}
+            menu={'#menu'}
+            anchors={['home', 'work', 'aboutus']}
             sectionsColor={['#ff0000', '#00ff00', '#0000ff']}
             render={() => (
                 <Pages />
