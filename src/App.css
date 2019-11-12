@@ -33,6 +33,12 @@
 .menu-link {
   margin-right: 5%;
   color: white;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+}
+
+.menu-link.active {
+  border-bottom: 2px solid #FF6F00;
 }
 
 ul {
