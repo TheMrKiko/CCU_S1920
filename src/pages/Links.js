@@ -25,7 +25,7 @@ const Links = () => (
 				</a>
 			</li>
 			<li>
-				<a href={`${process.env.PUBLIC_URL}/pdf/formative-user-study​.pdf`}>
+				<a href={`${process.env.PUBLIC_URL}/pdf/formative_user_study​.pdf`}>
 					Formative User Study
 				</a>
 			</li>
