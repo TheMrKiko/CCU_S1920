@@ -29,6 +29,11 @@ const Links = () => (
 					Formative User Study
 				</a>
 			</li>
+			<li>
+				<a href={`${process.env.PUBLIC_URL}/pdf/usability_testing.pdf`}>
+					Usability Testing
+				</a>
+			</li>
 		</ul>
 	</Page>
 )
