@@ -11,6 +11,9 @@ const Menu = () => (
 		<li className="menu-link" data-menuanchor="aboutus">
 			<a href="#aboutus">About Us</a>
 		</li>
+		<li className="menu-link">
+			<a href="https://github.com/TheMrKiko/CCU-APP_S1920">Code</a>
+		</li>
 	</ul>
 )
 
