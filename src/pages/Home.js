@@ -3,7 +3,8 @@ import { Page } from '../components';
 
 const Home = () => (
 	<Page>
-		CCU - GROUP 2
+		Underway <br />
+		Conceção Centrada no Utilizador - Group 2
 	</Page>
 )
 
