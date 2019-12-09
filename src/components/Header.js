@@ -1,11 +1,11 @@
 import React from 'react'
 import { Menu } from '.';
 
-import logo from '../logo.svg'
+import logo from '../icon.png'
 
 const Header = () => (
 	<header id="header">
-		<img src={logo}></img>
+		<img id="logo" src={logo}></img>
 		<Menu />
 	</header>
 )

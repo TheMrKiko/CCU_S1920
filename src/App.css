@@ -10,6 +10,8 @@
 }
 
 #header {
+  padding: 5px;
+  padding-left: 5%;
   display: flex;
   position: fixed;
   top: 0;
@@ -19,7 +21,7 @@
 }
 
 #logo {
-  flex: 0;
+  height: 100%;
 }
 
 #menu {
