@@ -34,6 +34,11 @@ const Links = () => (
 					Usability Testing
 				</a>
 			</li>
+			<li>
+				<a href={`${process.env.PUBLIC_URL}/pdf/fully_functional_prototype.pdf`}>
+					Fully Functional Prototype
+				</a>
+			</li>
 		</ul>
 	</Page>
 )
