@@ -11,7 +11,7 @@ const App = () => (
             licenseKey={'bDP5kpT?i1'}
             menu={'#menu'}
             anchors={['home', 'work', 'aboutus']}
-            sectionsColor={['#ff0000', '#00ff00', '#0000ff']}
+            sectionsColor={['#0E0055', '#090033', '#030011']}
             render={() => (
                 <Pages />
             )}
