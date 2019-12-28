@@ -39,6 +39,11 @@ const Links = () => (
 					Fully Functional Prototype
 				</a>
 			</li>
+			<li>
+				<a href={`${process.env.PUBLIC_URL}/pdf/final_presentation.pdf`}>
+					Final Presentation
+				</a>
+			</li>
 		</ul>
 	</Page>
 )
