@@ -43,6 +43,28 @@
   border-bottom: 2px solid #FF6F00;
 }
 
+#file-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.file-link {
+  flex: 0 1;
+  width: 21vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.file-link-img {
+  width: 100%;
+}
+
+.file-link-img img {
+  width: 100%;
+}
+
 ul {
   list-style-type: none;
   margin-block-start: 0;
