@@ -12,7 +12,7 @@ const Menu = () => (
 			<a href="#aboutus">About Us</a>
 		</li>
 		<li className="menu-link">
-			<a href="https://github.com/TheMrKiko/CCU-APP_S1920">Code</a>
+			<a href="https://github.com/RVelhinho/CCU-APP_S1920">Code</a>
 		</li>
 	</ul>
 )
